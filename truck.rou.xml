@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-10-29T17:56:40.623888+00:00 by Eclipse SUMO duarouter 1.28.0
+<duarouterConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="map.net.xml"/>
+        <route-files value="truck.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="truck.rou.xml"/>
+    </output>
+
+    <report>
+        <ignore-errors value="true"/>
+    </report>
+
+</duarouterConfiguration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="truck__truck" vClass="truck"/>
+    <vehicle id="truck_0" type="truck__truck" depart="0.00">
+        <route edges="260858265-AddedOnRampEdge 260858265"/>
+    </vehicle>
+    <vehicle id="truck_1" type="truck__truck" depart="5.00">
+        <route edges="223780733 260858265-AddedOnRampEdge 260858265"/>
+    </vehicle>
+    <vehicle id="truck_2" type="truck__truck" depart="10.00">
+        <route edges="98479821 260858265-AddedOnRampEdge"/>
+    </vehicle>
+    <vehicle id="truck_3" type="truck__truck" depart="15.00">
+        <route edges="98479821 260858265-AddedOnRampEdge 260858265"/>
+    </vehicle>
+    <vehicle id="truck_4" type="truck__truck" depart="20.00">
+        <route edges="260858265-AddedOnRampEdge 260858265"/>
+    </vehicle>
+    <vehicle id="truck_5" type="truck__truck" depart="25.00">
+        <route edges="223780733 260858265-AddedOnRampEdge"/>
+    </vehicle>
+    <vehicle id="truck_6" type="truck__truck" depart="30.00">
+        <route edges="223780733 260858265-AddedOnRampEdge 260858265"/>
+    </vehicle>
+    <vehicle id="truck_7" type="truck__truck" depart="35.00">
+        <route edges="260858265-AddedOnRampEdge"/>
+    </vehicle>
+    <vehicle id="truck_8" type="truck__truck" depart="40.00">
+        <route edges="223780733 260858265-AddedOnRampEdge"/>
+    </vehicle>
+    <vehicle id="truck_9" type="truck__truck" depart="45.00">
+        <route edges="98479821 260858265-AddedOnRampEdge 260858265"/>
+    </vehicle>
+    <vehicle id="truck_10" type="truck__truck" depart="50.00">
+        <route edges="98479821 260858265-AddedOnRampEdge"/>
+    </vehicle>
+    <vehicle id="truck_11" type="truck__truck" depart="55.00">
+        <route edges="260858265-AddedOnRampEdge 260858265"/>
+    </vehicle>
+    <vehicle id="truck_12" type="truck__truck" depart="60.00">
+        <route edges="98479821 260858265-AddedOnRampEdge 260858265"/>
+    </vehicle>
+    <vehicle id="truck_13" type="truck__truck" depart="65.00">
+        <route edges="223780733 260858265-AddedOnRampEdge 260858265"/>
+    </vehicle>
+    <vehicle id="truck_14" type="truck__truck" depart="70.00">
+        <route edges="98479821 260858265-AddedOnRampEdge"/>
+    </vehicle>
+    <vehicle id="truck_15" type="truck__truck" depart="75.00">
+        <route edges="98479821 260858265-AddedOnRampEdge"/>
+    </vehicle>
+    <vehicle id="truck_16" type="truck__truck" depart="80.00">
+        <route edges="260858265-AddedOnRampEdge"/>
+    </vehicle>
+    <vehicle id="truck_17" type="truck__truck" depart="85.00">
+        <route edges="260858265-AddedOnRampEdge"/>
+    </vehicle>
+    <vehicle id="truck_18" type="truck__truck" depart="90.00">
+        <route edges="98479821 260858265-AddedOnRampEdge"/>
+    </vehicle>
+    <vehicle id="truck_19" type="truck__truck" depart="95.00">
+        <route edges="98479821 260858265-AddedOnRampEdge"/>
+    </vehicle>
+    <vehicle id="truck_20" type="truck__truck" depart="100.00">
+        <route edges="98479821 260858265-AddedOnRampEdge 260858265"/>
+    </vehicle>
+    <vehicle id="truck_21" type="truck__truck" depart="105.00">
+        <route edges="223780733 260858265-AddedOnRampEdge 260858265"/>
+    </vehicle>
+    <vehicle id="truck_22" type="truck__truck" depart="110.00">
+        <route edges="223780733 260858265-AddedOnRampEdge 260858265"/>
+    </vehicle>
+    <vehicle id="truck_23" type="truck__truck" depart="115.00">
+        <route edges="223780733 260858265-AddedOnRampEdge 260858265"/>
+    </vehicle>
+    <vehicle id="truck_24" type="truck__truck" depart="120.00">
+        <route edges="260858265-AddedOnRampEdge 260858265"/>
+    </vehicle>
+    <vehicle id="truck_25" type="truck__truck" depart="125.00">
+        <route edges="260858265-AddedOnRampEdge 260858265"/>
+    </vehicle>
+    <vehicle id="truck_26" type="truck__truck" depart="130.00">
+        <route edges="223780733 260858265-AddedOnRampEdge"/>
+    </vehicle>
+    <vehicle id="truck_27" type="truck__truck" depart="135.00">
+        <route edges="260858265-AddedOnRampEdge"/>
+    </vehicle>
+    <vehicle id="truck_28" type="truck__truck" depart="140.00">
+        <route edges="223780733 260858265-AddedOnRampEdge"/>
+    </vehicle>
+    <vehicle id="truck_29" type="truck__truck" depart="145.00">
+        <route edges="223780733 260858265-AddedOnRampEdge 260858265"/>
+    </vehicle>
+    <vehicle id="truck_30" type="truck__truck" depart="150.00">
+        <route edges="98479821 260858265-AddedOnRampEdge"/>
+    </vehicle>
+    <vehicle id="truck_31" type="truck__truck" depart="155.00">
+        <route edges="260858265-AddedOnRampEdge"/>
+    </vehicle>
+    <vehicle id="truck_32" type="truck__truck" depart="160.00">
+        <route edges="98479821 260858265-AddedOnRampEdge"/>
+    </vehicle>
+    <vehicle id="truck_33" type="truck__truck" depart="165.00">
+        <route edges="223780733 260858265-AddedOnRampEdge 260858265"/>
+    </vehicle>
+    <vehicle id="truck_34" type="truck__truck" depart="170.00">
+        <route edges="223780733 260858265-AddedOnRampEdge 260858265"/>
+    </vehicle>
+    <vehicle id="truck_35" type="truck__truck" depart="175.00">
+        <route edges="223780733 260858265-AddedOnRampEdge"/>
+    </vehicle>
+    <vehicle id="truck_36" type="truck__truck" depart="180.00">
+        <route edges="98479821 260858265-AddedOnRampEdge 260858265"/>
+    </vehicle>
+    <vehicle id="truck_37" type="truck__truck" depart="185.00">
+        <route edges="260858265-AddedOnRampEdge 260858265"/>
+    </vehicle>
+    <vehicle id="truck_38" type="truck__truck" depart="190.00">
+        <route edges="98479821 260858265-AddedOnRampEdge 260858265"/>
+    </vehicle>
+    <vehicle id="truck_39" type="truck__truck" depart="195.00">
+        <route edges="223780733 260858265-AddedOnRampEdge 260858265"/>
+    </vehicle>
+    <vehicle id="truck_40" type="truck__truck" depart="200.00">
+        <route edges="260858265-AddedOnRampEdge 260858265"/>
+    </vehicle>
+    <vehicle id="truck_41" type="truck__truck" depart="205.00">
+        <route edges="260858265-AddedOnRampEdge"/>
+    </vehicle>
+    <vehicle id="truck_42" type="truck__truck" depart="210.00">
+        <route edges="260858265-AddedOnRampEdge 260858265"/>
+    </vehicle>
+    <vehicle id="truck_43" type="truck__truck" depart="215.00">
+        <route edges="98479821 260858265-AddedOnRampEdge"/>
+    </vehicle>
+    <vehicle id="truck_44" type="truck__truck" depart="220.00">
+        <route edges="223780733 260858265-AddedOnRampEdge 260858265"/>
+    </vehicle>
+    <vehicle id="truck_45" type="truck__truck" depart="225.00">
+        <route edges="223780733 260858265-AddedOnRampEdge"/>
+    </vehicle>
+    <vehicle id="truck_46" type="truck__truck" depart="230.00">
+        <route edges="98479821 260858265-AddedOnRampEdge 260858265"/>
+    </vehicle>
+    <vehicle id="truck_47" type="truck__truck" depart="235.00">
+        <route edges="223780733 260858265-AddedOnRampEdge 260858265"/>
+    </vehicle>
+    <vehicle id="truck_48" type="truck__truck" depart="240.00">
+        <route edges="98479821 260858265-AddedOnRampEdge"/>
+    </vehicle>
+    <vehicle id="truck_49" type="truck__truck" depart="245.00">
+        <route edges="98479821 260858265-AddedOnRampEdge"/>
+    </vehicle>
+    <vehicle id="truck_50" type="truck__truck" depart="250.00">
+        <route edges="223780733 260858265-AddedOnRampEdge"/>
+    </vehicle>
+    <vehicle id="truck_51" type="truck__truck" depart="255.00">
+        <route edges="98479821 260858265-AddedOnRampEdge"/>
+    </vehicle>
+    <vehicle id="truck_52" type="truck__truck" depart="260.00">
+        <route edges="223780733 260858265-AddedOnRampEdge"/>
+    </vehicle>
+    <vehicle id="truck_53" type="truck__truck" depart="265.00">
+        <route edges="223780733 260858265-AddedOnRampEdge 260858265"/>
+    </vehicle>
+    <vehicle id="truck_54" type="truck__truck" depart="270.00">
+        <route edges="260858265-AddedOnRampEdge"/>
+    </vehicle>
+    <vehicle id="truck_55" type="truck__truck" depart="275.00">
+        <route edges="98479821 260858265-AddedOnRampEdge 260858265"/>
+    </vehicle>
+    <vehicle id="truck_56" type="truck__truck" depart="280.00">
+        <route edges="260858265-AddedOnRampEdge 260858265"/>
+    </vehicle>
+    <vehicle id="truck_57" type="truck__truck" depart="285.00">
+        <route edges="98479821 260858265-AddedOnRampEdge"/>
+    </vehicle>
+    <vehicle id="truck_58" type="truck__truck" depart="290.00">
+        <route edges="223780733 260858265-AddedOnRampEdge"/>
+    </vehicle>
+    <vehicle id="truck_59" type="truck__truck" depart="295.00">
+        <route edges="260858265-AddedOnRampEdge 260858265"/>
+    </vehicle>
+</routes>

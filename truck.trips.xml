@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-10-29 17:56:35.585054 by Eclipse SUMO randomTrips.py v1_28_0+0000-daf91b55789
+<configuration>
+    <net-file value="map.net.xml"/>
+    <output-trip-file value="truck.trips.xml"/>
+    <prefix value="truck_"/>
+    <vehicle-class value="truck"/>
+    <end value="300.0"/>
+    <period value="5.0"/>
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="truck__truck" vClass="truck"/>
+    <trip id="truck_0" depart="0.00" from="260858265-AddedOnRampEdge" to="260858265" type="truck__truck"/>
+    <trip id="truck_1" depart="5.00" from="223780733" to="260858265" type="truck__truck"/>
+    <trip id="truck_2" depart="10.00" from="98479821" to="260858265-AddedOnRampEdge" type="truck__truck"/>
+    <trip id="truck_3" depart="15.00" from="98479821" to="260858265" type="truck__truck"/>
+    <trip id="truck_4" depart="20.00" from="260858265-AddedOnRampEdge" to="260858265" type="truck__truck"/>
+    <trip id="truck_5" depart="25.00" from="223780733" to="260858265-AddedOnRampEdge" type="truck__truck"/>
+    <trip id="truck_6" depart="30.00" from="223780733" to="260858265" type="truck__truck"/>
+    <trip id="truck_7" depart="35.00" from="260858265-AddedOnRampEdge" to="260858265-AddedOnRampEdge" type="truck__truck"/>
+    <trip id="truck_8" depart="40.00" from="223780733" to="260858265-AddedOnRampEdge" type="truck__truck"/>
+    <trip id="truck_9" depart="45.00" from="98479821" to="260858265" type="truck__truck"/>
+    <trip id="truck_10" depart="50.00" from="98479821" to="260858265-AddedOnRampEdge" type="truck__truck"/>
+    <trip id="truck_11" depart="55.00" from="260858265-AddedOnRampEdge" to="260858265" type="truck__truck"/>
+    <trip id="truck_12" depart="60.00" from="98479821" to="260858265" type="truck__truck"/>
+    <trip id="truck_13" depart="65.00" from="223780733" to="260858265" type="truck__truck"/>
+    <trip id="truck_14" depart="70.00" from="98479821" to="260858265-AddedOnRampEdge" type="truck__truck"/>
+    <trip id="truck_15" depart="75.00" from="98479821" to="260858265-AddedOnRampEdge" type="truck__truck"/>
+    <trip id="truck_16" depart="80.00" from="260858265-AddedOnRampEdge" to="260858265-AddedOnRampEdge" type="truck__truck"/>
+    <trip id="truck_17" depart="85.00" from="260858265-AddedOnRampEdge" to="260858265-AddedOnRampEdge" type="truck__truck"/>
+    <trip id="truck_18" depart="90.00" from="98479821" to="260858265-AddedOnRampEdge" type="truck__truck"/>
+    <trip id="truck_19" depart="95.00" from="98479821" to="260858265-AddedOnRampEdge" type="truck__truck"/>
+    <trip id="truck_20" depart="100.00" from="98479821" to="260858265" type="truck__truck"/>
+    <trip id="truck_21" depart="105.00" from="223780733" to="260858265" type="truck__truck"/>
+    <trip id="truck_22" depart="110.00" from="223780733" to="260858265" type="truck__truck"/>
+    <trip id="truck_23" depart="115.00" from="223780733" to="260858265" type="truck__truck"/>
+    <trip id="truck_24" depart="120.00" from="260858265-AddedOnRampEdge" to="260858265" type="truck__truck"/>
+    <trip id="truck_25" depart="125.00" from="260858265-AddedOnRampEdge" to="260858265" type="truck__truck"/>
+    <trip id="truck_26" depart="130.00" from="223780733" to="260858265-AddedOnRampEdge" type="truck__truck"/>
+    <trip id="truck_27" depart="135.00" from="260858265-AddedOnRampEdge" to="260858265-AddedOnRampEdge" type="truck__truck"/>
+    <trip id="truck_28" depart="140.00" from="223780733" to="260858265-AddedOnRampEdge" type="truck__truck"/>
+    <trip id="truck_29" depart="145.00" from="223780733" to="260858265" type="truck__truck"/>
+    <trip id="truck_30" depart="150.00" from="98479821" to="260858265-AddedOnRampEdge" type="truck__truck"/>
+    <trip id="truck_31" depart="155.00" from="260858265-AddedOnRampEdge" to="260858265-AddedOnRampEdge" type="truck__truck"/>
+    <trip id="truck_32" depart="160.00" from="98479821" to="260858265-AddedOnRampEdge" type="truck__truck"/>
+    <trip id="truck_33" depart="165.00" from="223780733" to="260858265" type="truck__truck"/>
+    <trip id="truck_34" depart="170.00" from="223780733" to="260858265" type="truck__truck"/>
+    <trip id="truck_35" depart="175.00" from="223780733" to="260858265-AddedOnRampEdge" type="truck__truck"/>
+    <trip id="truck_36" depart="180.00" from="98479821" to="260858265" type="truck__truck"/>
+    <trip id="truck_37" depart="185.00" from="260858265-AddedOnRampEdge" to="260858265" type="truck__truck"/>
+    <trip id="truck_38" depart="190.00" from="98479821" to="260858265" type="truck__truck"/>
+    <trip id="truck_39" depart="195.00" from="223780733" to="260858265" type="truck__truck"/>
+    <trip id="truck_40" depart="200.00" from="260858265-AddedOnRampEdge" to="260858265" type="truck__truck"/>
+    <trip id="truck_41" depart="205.00" from="260858265-AddedOnRampEdge" to="260858265-AddedOnRampEdge" type="truck__truck"/>
+    <trip id="truck_42" depart="210.00" from="260858265-AddedOnRampEdge" to="260858265" type="truck__truck"/>
+    <trip id="truck_43" depart="215.00" from="98479821" to="260858265-AddedOnRampEdge" type="truck__truck"/>
+    <trip id="truck_44" depart="220.00" from="223780733" to="260858265" type="truck__truck"/>
+    <trip id="truck_45" depart="225.00" from="223780733" to="260858265-AddedOnRampEdge" type="truck__truck"/>
+    <trip id="truck_46" depart="230.00" from="98479821" to="260858265" type="truck__truck"/>
+    <trip id="truck_47" depart="235.00" from="223780733" to="260858265" type="truck__truck"/>
+    <trip id="truck_48" depart="240.00" from="98479821" to="260858265-AddedOnRampEdge" type="truck__truck"/>
+    <trip id="truck_49" depart="245.00" from="98479821" to="260858265-AddedOnRampEdge" type="truck__truck"/>
+    <trip id="truck_50" depart="250.00" from="223780733" to="260858265-AddedOnRampEdge" type="truck__truck"/>
+    <trip id="truck_51" depart="255.00" from="98479821" to="260858265-AddedOnRampEdge" type="truck__truck"/>
+    <trip id="truck_52" depart="260.00" from="223780733" to="260858265-AddedOnRampEdge" type="truck__truck"/>
+    <trip id="truck_53" depart="265.00" from="223780733" to="260858265" type="truck__truck"/>
+    <trip id="truck_54" depart="270.00" from="260858265-AddedOnRampEdge" to="260858265-AddedOnRampEdge" type="truck__truck"/>
+    <trip id="truck_55" depart="275.00" from="98479821" to="260858265" type="truck__truck"/>
+    <trip id="truck_56" depart="280.00" from="260858265-AddedOnRampEdge" to="260858265" type="truck__truck"/>
+    <trip id="truck_57" depart="285.00" from="98479821" to="260858265-AddedOnRampEdge" type="truck__truck"/>
+    <trip id="truck_58" depart="290.00" from="223780733" to="260858265-AddedOnRampEdge" type="truck__truck"/>
+    <trip id="truck_59" depart="295.00" from="260858265-AddedOnRampEdge" to="260858265" type="truck__truck"/>
+</routes>

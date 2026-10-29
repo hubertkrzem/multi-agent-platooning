@@ -1,7 +1,7 @@
 <configuration>
     <input>
-        <net-file value="map.net.xml"/>
-        <route-files value="map.rou.xml,truck.rou.xml"/>
+        <net-file value="c:\Users\ricel\multi-agent-platooning\map.net.xml"/>
+        <route-files value="c:\Users\ricel\multi-agent-platooning\map.rou.xml,c:\Users\ricel\multi-agent-platooning\truck.rou.xml"/>
     </input>
     <time>
         <begin value="0"/>
