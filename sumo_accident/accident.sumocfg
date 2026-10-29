@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <input>
+        <net-file value="highway.net.xml"/>
+        <route-files value="routes.rou.xml"/>
+    </input>
+    <time>
+        <begin value="0"/>
+        <end value="900"/>
+        <step-length value="0.1"/>
+    </time>
+    <processing>
+        <!-- Do not let SUMO "teleport" vehicles that are stuck behind the accident -->
+        <time-to-teleport value="-1"/>
+    </processing>
+    <report>
+        <no-step-log value="true"/>
+    </report>
+</configuration>

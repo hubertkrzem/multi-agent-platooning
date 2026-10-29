@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+
+    <!-- Two vehicle classes: car and van (different acceleration, braking, length and following gap).
+         carFollowModel="IDM" = ordinary (human-like) traffic. -->
+    <vType id="car" vClass="passenger" length="4.5" accel="2.6" decel="4.5" tau="1.0"
+           maxSpeed="36.0" carFollowModel="IDM" color="yellow"/>
+    <vType id="van" vClass="delivery"  length="6.5" accel="1.5" decel="3.5" tau="1.5"
+           maxSpeed="30.0" carFollowModel="IDM" color="blue"/>
+
+    <!-- The only route: drive along the whole highway -->
+    <route id="r0" edges="highway"/>
+
+    <!-- Background traffic (entries must be sorted by departure time, so flows come first) -->
+    <flow id="cars" type="car" route="r0" begin="0" end="800" vehsPerHour="700"
+          departLane="best" departSpeed="max"/>
+    <flow id="vans" type="van" route="r0" begin="0" end="800" vehsPerHour="150"
+          departLane="best" departSpeed="max"/>
+
+    <!-- The two cars that will crash (green), both on the right lane (lane 0).
+         crash_car enters first, hit_car enters 2 s later right behind it.
+         The Python script makes them collide at x = 300 m. -->
+    <vehicle id="crash_car" type="car" route="r0" depart="30" departLane="0" departSpeed="20" color="0,255,0"/>
+    <vehicle id="hit_car"   type="car" route="r0" depart="32" departLane="0" departSpeed="20" color="0,255,0"/>
+
+</routes>

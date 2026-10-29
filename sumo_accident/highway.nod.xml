@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Nodes (start and end points) of a straight 600 m highway -->
+<nodes>
+    <node id="start" x="0.0"    y="0.0"/>
+    <node id="end"   x="600.0" y="0.0"/>
+</nodes>

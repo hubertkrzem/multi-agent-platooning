@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+output/
+.DS_Store
+scenarios/*/trips.trips.xml
+.ipynb_checkpoints/

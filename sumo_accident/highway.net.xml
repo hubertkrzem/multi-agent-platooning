@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Straight 600 m highway, 2 lanes, one direction (west -> east).
+     Lane highway_0 = right lane, lane highway_1 = left lane.
+     If SUMO complains about this file, regenerate it from highway.nod.xml and
+     highway.edg.xml with netconvert (see README.md).
+-->
+<net version="1.20" junctionCornerDetail="5" limitTurnSpeed="5.50" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
+
+    <location netOffset="0.00,0.00" convBoundary="0.00,0.00,600.00,0.00" origBoundary="0.00,0.00,600.00,0.00" projParameter="!"/>
+
+    <edge id="highway" from="start" to="end" priority="-1">
+        <lane id="highway_0" index="0" speed="33.33" length="600.00" shape="0.00,-4.80 600.00,-4.80"/>
+        <lane id="highway_1" index="1" speed="33.33" length="600.00" shape="0.00,-1.60 600.00,-1.60"/>
+    </edge>
+
+    <junction id="start" type="dead_end" x="0.00" y="0.00" incLanes="" intLanes="" shape="0.00,0.00 0.00,-6.40"/>
+    <junction id="end" type="dead_end" x="600.00" y="0.00" incLanes="highway_0 highway_1" intLanes="" shape="600.00,-6.40 600.00,0.00"/>
+
+</net>
