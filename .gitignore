@@ -4,3 +4,4 @@ output/
 .DS_Store
 scenarios/*/trips.trips.xml
 .ipynb_checkpoints/
+.env

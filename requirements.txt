@@ -1,0 +1,8 @@
+# SUMO simulator (sumo, sumo-gui, netconvert binaries) and its Python tools
+eclipse-sumo==1.28.0
+traci==1.28.0
+sumolib==1.28.0
+
+pandas==3.1.0
+matplotlib==3.11.2
+python-dotenv==1.2.4
