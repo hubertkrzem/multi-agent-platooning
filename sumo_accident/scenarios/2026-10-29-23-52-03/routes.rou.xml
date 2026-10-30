@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+
+    <!-- Vehicle classes -->
+    <vType id="car"   vClass="passenger" length="4.5"  maxSpeed="36.1" accel="2.6" decel="4.5" sigma="0.5" color="yellow"/>
+    <vType id="truck" vClass="truck"     length="12.0" maxSpeed="25.0" accel="1.0" decel="4.0" sigma="0.5" color="blue"/>
+
+    <!-- Main carriageway, Southbound: South Eastern Motorway (single edge 1229067689#1) -->
+    <route id="route_A" edges="1229067689#1"/>
+    <flow id="car_A"   type="car"   from="1229067689#1" to="1229067689#1" begin="0" end="800" vehsPerHour="1400" departLane="best" departSpeed="max"/>
+    <flow id="truck_A" type="truck" from="1229067689#1" to="1229067689#1" begin="0" end="800" vehsPerHour="150"  departLane="best" departSpeed="max"/>
+
+    <!-- Main carriageway, Northbound: South Eastern Motorway (783429025 -> 783429027) -->
+    <flow id="car_B"   type="car"   from="783429025" to="783429027" begin="0" end="800" vehsPerHour="2100" departLane="best" departSpeed="max"/>
+    <flow id="truck_B" type="truck" from="783429025" to="783429027" begin="0" end="800" vehsPerHour="450"  departLane="best" departSpeed="max"/>
+
+    <!-- The two cars that will crash (green), both on lane 0 of direction A (the kerb lane;
+         this network drives on the left). crash_car enters first, hit_car enters 2 s later
+         right behind it. The notebook makes them collide at CRASH_POSITION. -->
+    <vehicle id="crash_car" type="car" route="route_A" depart="30" departLane="0" departSpeed="20" color="0,255,0"/>
+    <vehicle id="hit_car"   type="car" route="route_A" depart="32" departLane="0" departSpeed="20" color="0,255,0"/>
+
+</routes>

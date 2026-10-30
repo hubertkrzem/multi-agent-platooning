@@ -1,0 +1,6 @@
+<configuration>
+    <bbox value="-6.218948364257813,53.252124139371396,-6.178092956542969,53.272742055843"/>
+    <output-dir value="/Users/hubertkrzemieniewski/Documents/university/year4/final-year-project/sumo_accident/scenarios/2026-10-29-23-52-03"/>
+    <road-types value="{&quot;Highway&quot;: [&quot;motorway&quot;, &quot;motorway_link&quot;], &quot;Railway&quot;: [], &quot;Aeroway&quot;: [], &quot;Waterway&quot;: [], &quot;Aerialway&quot;: [], &quot;Route&quot;: []}"/>
+    <gzip value="True"/>
+</configuration>

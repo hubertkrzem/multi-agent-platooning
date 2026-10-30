@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-10-29T23:54:53.749953+00:00 by Eclipse SUMO sumo v1_28_0+0024-342fe360d
+-->
+
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="road.net.xml"/>
+        <route-files value="routes.rou.xml"/>
+    </input>
+
+    <time>
+        <begin value="0"/>
+        <end value="900"/>
+        <step-length value="0.1"/>
+    </time>
+
+    <processing>
+        <!-- Do not let SUMO "teleport" vehicles that are stuck behind the accident -->
+        <time-to-teleport value="-1"/>
+        <ignore-route-errors value="true"/>
+        <tls.actuated.jam-threshold value="30"/>
+    </processing>
+
+    <routing>
+        <device.rerouting.adaptation-steps value="18"/>
+        <device.rerouting.adaptation-interval value="10"/>
+    </routing>
+
+    <report>
+        <verbose value="true"/>
+        <duration-log.statistics value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <gui_only>
+        <gui-settings-file value="osm.view.xml"/>
+    </gui_only>
+
+</sumoConfiguration>
